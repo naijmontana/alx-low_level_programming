@@ -34,3 +34,4 @@ str[r++] = '\n';
 }
 return (str);
 }
+}
