@@ -81,5 +81,3 @@
   * If an error occurs or the file is not an `ELF` file, the function displays a
   corresponding error message to `stderr` and exits with a status value of `98`.
 
-
-

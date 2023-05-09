@@ -23,6 +23,7 @@ exit(99);
 }
 return (buffer);
 }
+
 /**
  * close_file - Closes file descriptors.
  * @fd: The file descriptor to be closed.
@@ -37,6 +38,7 @@ dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 exit(100);
 }
 }
+
 /**
  * main - Copies the contents of a file to another file.
  * @argc: The number of arguments supplied to the program.
